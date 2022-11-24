@@ -3,33 +3,7 @@
     "job": "Front-End Developer",
     "github": "TalisDuarte007",
     "playlists": {
-        "Músicas": [],
-        "Covers": [
-            {
-                "title": "City Of stars - 王OK",
-                "url": "https://www.youtube.com/watch?v=R2CzFQpWoLs",
-                "thumb": "https://i3.ytimg.com/vi/R2CzFQpWoLs/maxresdefault.jpg"
-            },
-            {
-                "title": "Moon River 王OK",
-                "url": "https://www.youtube.com/watch?v=yE3kwHfeDaQ",
-                "thumb": "https://i3.ytimg.com/vi/yE3kwHfeDaQ/maxresdefault.jpg"
-            },
-            {
-                "title": "Shadow of the sun 王OK",
-                "url": "https://www.youtube.com/watch?v=pM3CFiZOU4k",
-                "thumb": "https://i3.ytimg.com/vi/pM3CFiZOU4k/maxresdefault.jpg"
-            },
-            {
-                "title": "Fly me to the moon 王OK",
-                "url": "https://www.youtube.com/watch?v=u-wEeg4YNoY",
-                "thumb": "https://i3.ytimg.com/vi/u-wEeg4YNoY/maxresdefault.jpg"
-            },
-            {
-                "title": "Double take 王OK",
-                "url": "https://www.youtube.com/watch?v=QjHfrI1vjrc",
-                "thumb": "https://i3.ytimg.com/vi/QjHfrI1vjrc/maxresdefault.jpg"
-            },
+        "xooos": [
             {
                 "title": "Light Switch - Charlie Puth (xooos cover)",
                 "url": "https://www.youtube.com/watch?v=9EDZixuODrw",
@@ -54,6 +28,33 @@
                 "title": "NewJeans - EP Remix (Attention, Hype Boy, Cookie, Hurt) xooos cover",
                 "url": "https://www.youtube.com/watch?v=UnHiKphJ1vs",
                 "thumb": "https://i3.ytimg.com/vi/UnHiKphJ1vs/maxresdefault.jpg"
+            }
+        ],
+        "王OK": [
+            {
+                "title": "City Of stars - 王OK",
+                "url": "https://www.youtube.com/watch?v=R2CzFQpWoLs",
+                "thumb": "https://i3.ytimg.com/vi/R2CzFQpWoLs/maxresdefault.jpg"
+            },
+            {
+                "title": "Moon River 王OK",
+                "url": "https://www.youtube.com/watch?v=yE3kwHfeDaQ",
+                "thumb": "https://i3.ytimg.com/vi/yE3kwHfeDaQ/maxresdefault.jpg"
+            },
+            {
+                "title": "Shadow of the sun 王OK",
+                "url": "https://www.youtube.com/watch?v=pM3CFiZOU4k",
+                "thumb": "https://i3.ytimg.com/vi/pM3CFiZOU4k/maxresdefault.jpg"
+            },
+            {
+                "title": "Fly me to the moon 王OK",
+                "url": "https://www.youtube.com/watch?v=u-wEeg4YNoY",
+                "thumb": "https://i3.ytimg.com/vi/u-wEeg4YNoY/maxresdefault.jpg"
+            },
+            {
+                "title": "Double take 王OK",
+                "url": "https://www.youtube.com/watch?v=QjHfrI1vjrc",
+                "thumb": "https://i3.ytimg.com/vi/QjHfrI1vjrc/maxresdefault.jpg"
             },
             {
                 "title": "Baby - emo cover🥹💔 王OK",
