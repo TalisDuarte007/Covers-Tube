@@ -88,6 +88,33 @@
                 "url": "https://www.youtube.com/watch?v=QrmNsZtGkRI",
                 "thumb": "https://i3.ytimg.com/vi/QrmNsZtGkRI/maxresdefault.jpg"
             }
+        ],
+        "Madilyn Bailey": [
+            {
+                "title": "As It Was - Harry Styles | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=asTYezy8GSA",
+                "thumb": "http://i3.ytimg.com/vi/asTYezy8GSA/hqdefault.jpg"
+            }, {
+                "title": "Easy On Me - Adele | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=-JZkykeQJek",
+                "thumb": "https://i3.ytimg.com/vi/-JZkykeQJek/maxresdefault.jpg"
+            }, {
+                "title": "Traitor - Olivia Rodrigo | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=qi-jD2aWVvA",
+                "thumb": "https://i3.ytimg.com/vi/qi-jD2aWVvA/maxresdefault.jpg"
+            }, {
+                "title": "Bad Habits - Ed Sheeran | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=l3ULjsn0GIw",
+                "thumb": "https://i3.ytimg.com/vi/l3ULjsn0GIw/maxresdefault.jpg"
+            }, {
+                "title": "Someone You Loved - Lewis Capaldi | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=w-jjEI-mUxA",
+                "thumb": "https://i3.ytimg.com/vi/w-jjEI-mUxA/maxresdefault.jpg"
+            }, {
+                "title": "Shape Of You - Ed Sheeran | Madilyn Bailey cover",
+                "url": "https://www.youtube.com/watch?v=AnBQXaC1ulQ",
+                "thumb": "https://i3.ytimg.com/vi/AnBQXaC1ulQ/maxresdefault.jpg"
+            }
         ]
     }
 }
