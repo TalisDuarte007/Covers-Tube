@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import config from "../../config.json";
 
-export const StyledMenu = styled.header`
+const StyledMenu = styled.header`
   display: flex;
   flex-direction: row;
   height: 56px;
@@ -37,5 +38,5 @@ export default function Menu() {
 
 function Logo() {
   return (
-    <img className="logo" src="https://uploaddeimagens.com.br/images/004/178/631/thumb/logo.png?1669326855"/>  )
+    <img className="logo" src={`${config.links.logo}`}/>  )
 }

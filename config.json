@@ -1,17 +1,39 @@
 {
-    "bg": "https://images.unsplash.com/photo-1483032469466-b937c425697b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "links": {
+        "bg": "https://images.unsplash.com/photo-1483032469466-b937c425697b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "logo": "https://uploaddeimagens.com.br/images/004/178/631/thumb/logo.png?1669326855",
+        "button": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAjUlEQVRIie3UoQ0CQRCF4S+Yc4fFnMVcB/RBC1haoAVaOIlH0QIdUAAGSUKCuEWNI4jLTUjg/uTJfX8yuztM/D0ntJmCgif2mGcJIjdsMcsSRM5YZQoKehzQZAkid+xQZQkiF6zfFYx1YQWPoQe/MqIeHRZDiz8J0p7pFRsJHy1WRT1mcXDEMqN44od4ASaPSxCKqLGRAAAAAElFTkSuQmCC"
+    },    
     "name": "Talis Duarte",
     "job": "Front-End Developer",
     "github": "TalisDuarte007",
-    "favoritos": {
-        "Paulo-Silveira": {
-            "nick": "@peas",
-            "github": "peas"
+    "favorites": {
+        "xooos": {
+            "image": "https://yt3.ggpht.com/JBFlBTYKRTttGKKxYdh4mAN2uV780fnik90uxEfx9QijFASSzx_FHx7tTruxZc_KDTi_XBBQQA=s88-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/@xooos",
+            "playlist": ""
         },
-        "Mario Souto": {
-            "nick": "@omariosouto",
-            "github": "omariosouto"
+        "王OK": {
+            "image": "https://yt3.ggpht.com/Po__vdG7uYJqf68EcpzDjUya5CICTnnB9DC7dR1cjzVQLcE6_vZKZ5n8lUsGcc8Es1fpUwjjaw=s88-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/@okokok_1031",
+            "playlist": ""
+        },
+        "G1nger": {
+            "image": "https://yt3.ggpht.com/vZjn__nHAL-c-fb6ugnihZShYiTpzhktTXuq0yAUty7JZ1hqJxdQhHhLMRXCjchtzvioFRFcv48=s88-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/@g1ngerhere",
+            "playlist": ""
+        },
+        "Madilyn Bailey": {
+            "image": "https://yt3.ggpht.com/3-JY_DwPxoWBLRs2vuc4-KoQWoCMvRCk38cXkQT-r-D5fPcCNhKTNvEZq1AjRniO7i4sSzaIOUQ=s88-c-k-c0x00ffffff-no-rj",
+            "link": "https://www.youtube.com/@MadilynBailey",
+            "playlist": ""
         }
+    },
+    "linkPlaylist": {
+        "xooos": "https://www.youtube.com/watch?v=9EDZixuODrw&list=PLoZZ7AjtYjKrEXJbNAoo0kyjy5OVWFUh_",
+        "王OK": "https://www.youtube.com/watch?v=R2CzFQpWoLs&list=PLoZZ7AjtYjKpe6IiJ8aVhcr_8hTuUv7Y7",
+        "G1nger": "https://www.youtube.com/watch?v=PmOpnSuGxbc&list=PLoZZ7AjtYjKqrZfE1hxjQpUq0ekglzul2",
+        "Madilyn Bailey": "https://www.youtube.com/watch?v=asTYezy8GSA&list=PLoZZ7AjtYjKpFNrt_VaCoc_eGxNzgoXUp"
     },
     "playlists": {
         "xooos": [
