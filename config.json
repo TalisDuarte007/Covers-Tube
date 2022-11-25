@@ -2,6 +2,16 @@
     "name": "Talis Duarte",
     "job": "Front-End Developer",
     "github": "TalisDuarte007",
+    "favoritos": {
+        "Paulo-Silveira": {
+            "nick": "@peas",
+            "github": "peas"
+        },
+        "Mario Souto": {
+            "nick": "@omariosouto",
+            "github": "omariosouto"
+        }
+    },
     "playlists": {
         "xooos": [
             {
@@ -60,6 +70,23 @@
                 "title": "Baby - emo cover🥹💔 王OK",
                 "url": "https://www.youtube.com/watch?v=yjAOvFkGR3I",
                 "thumb": "https://i3.ytimg.com/vi/yjAOvFkGR3I/maxresdefault.jpg"
+            }
+        ],
+        "G1nger": [
+            {
+                "title": "NewJeans 뉴진스 - Hype Boy 하입보이 (cover by g1nger)",
+                "url": "https://www.youtube.com/watch?v=PmOpnSuGxbc",
+                "thumb": "https://i3.ytimg.com/vi/PmOpnSuGxbc/maxresdefault.jpg"
+            },
+            {
+                "title": "NewJeans 뉴진스 - Hurt (cover by g1nger)",
+                "url": "https://www.youtube.com/watch?v=NBLnq8O9Ntg",
+                "thumb": "https://i3.ytimg.com/vi/NBLnq8O9Ntg/maxresdefault.jpg"
+            },
+            {
+                "title": "🦋 Butterfly 🦋 - UMI (cover by g1nger)",
+                "url": "https://www.youtube.com/watch?v=QrmNsZtGkRI",
+                "thumb": "https://i3.ytimg.com/vi/QrmNsZtGkRI/maxresdefault.jpg"
             }
         ]
     }
