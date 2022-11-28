@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../config.json";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
@@ -6,6 +7,8 @@ import Timeline from "../src/components/Timeline";
 import styled from "styled-components";
 import Favorites from "../src/components/Favorites";
 
+
+
 const StyledPage = styled.div`
   display: flex;
   flex-direction: column;
@@ -13,13 +16,14 @@ const StyledPage = styled.div`
 `;
 
 function HomePage() {
+  const [valorDoFiltro, setValorDoFiltro] = React.useState("")
   return (
     <>
       <CSSReset />
       <StyledPage>
-        <Menu />
+        <Menu  valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
         <Header />
-        <Timeline config={config} />
+        <Timeline searchValue={valorDoFiltro} config={config} />
         <Favorites favorites={config.favorites}/>
       </StyledPage>
     </>

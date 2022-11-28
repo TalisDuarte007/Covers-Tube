@@ -32,8 +32,8 @@ export default function Favorites(props) {
         {favoritesNames.map((favorite) => {
           const favoriteObj = props.favorites[favorite];
           return (
-            <section>
-              <a href={favoriteObj.link}>
+            <section key={favorite}>
+              <a key={favoriteObj.link} href={favoriteObj.link}>
                 <img className="image-favorites" src={favoriteObj.image} />
                 <span>{favorite}</span>
               </a>

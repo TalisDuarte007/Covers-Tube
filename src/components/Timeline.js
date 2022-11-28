@@ -74,15 +74,14 @@ const StyledTimeline = styled.div`
   }
 `;
 
-export default function Timeline(props) {
-  console.log(props)
+export default function Timeline({searchValue, ...props}) {
   const playlistNames = Object.keys(props.config.playlists);
   return (
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
         const videos = props.config.playlists[playlistName];
         return (
-          <section>
+          <section key={playlistName}>
             <div className="name-button">
               <h2>{playlistName}</h2>
               <a href={props.config.linkPlaylist[playlistName]}>
@@ -91,9 +90,13 @@ export default function Timeline(props) {
             </div>
             
             <div className="videos-list">
-              {videos.map((video) => {
+              {videos.filter((video) => {
+                const titleNormalized = video.title.toLowerCase();
+                const searchValueNormalizer = searchValue.toLowerCase();
+                return titleNormalized.includes(searchValueNormalizer)
+              }).map((video) => {
                 return (
-                  <a href={video.url}>
+                  <a key={video.url} href={video.url}>
                     <img className="thumb" src={video.thumb} />
                     <span>{video.title}</span>
                   </a>
