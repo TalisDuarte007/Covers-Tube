@@ -80,32 +80,54 @@ export default function Timeline({searchValue, ...props}) {
     <StyledTimeline>
       {playlistNames.map((playlistName) => {
         const videos = props.config.playlists[playlistName];
-        return (
-          <section key={playlistName}>
-            <div className="name-button">
-              <h2>{playlistName}</h2>
-              <a href={props.config.linkPlaylist[playlistName]}>
-                <button><img src={config.links.button} /> Reproduzir Tudo</button>
-              </a>
-            </div>
-            
-            <div className="videos-list">
-              {videos.filter((video) => {
-                const titleNormalized = video.title.toLowerCase();
-                const searchValueNormalizer = searchValue.toLowerCase();
-                return titleNormalized.includes(searchValueNormalizer)
-              }).map((video) => {
-                return (
-                  <a key={video.url} href={video.url}>
-                    <img className="thumb" src={video.thumb} />
-                    <span>{video.title}</span>
-                  </a>
-                );
-              })}
-            </div>
-          </section>
-        );
+
+        if (verificaArrayVazio(videos, searchValue) > 0) {
+          return (
+            <section key={playlistName}>
+              <div className="name-button">
+                <h2>{playlistName}</h2>
+                <a href={props.config.linkPlaylist[playlistName]}>
+                  <button><img src={config.links.button} />Reproduzir Tudo</button>
+                </a>
+              </div>
+              
+              <div className="videos-list">
+                {videos.filter((video) => {
+                  const titleNormalized = video.title.toLowerCase();
+                  const searchValueNormalizer = searchValue.toLowerCase();
+                  return titleNormalized.includes(searchValueNormalizer)
+                }).map((video) => {
+                  return (
+                    <a key={video.url} href={video.url}>
+                      <img className="thumb" src={video.thumb} />
+                      <span>{video.title}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        }
+        
       })}
     </StyledTimeline>
   );
+}
+
+function verificaArrayVazio(videos, searchValue) {
+  const listaAtualizada = []
+  videos.filter((video) => {
+    listaAtualizada.push(video.title.toLowerCase().includes(searchValue.toLowerCase()))
+  })
+
+  console.log(listaAtualizada) 
+
+  const newList = []
+  
+  for(let videoAtualizado of listaAtualizada){
+    if(videoAtualizado){
+      newList.push(videoAtualizado)
+    }
+  }
+  return newList.length
 }

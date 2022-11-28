@@ -30,9 +30,7 @@ const StyledMenu = styled.header`
 export default function Menu({valorDoFiltro, setValorDoFiltro}) {
   return (
     <StyledMenu>
-      <div>
-        <Logo />  
-      </div>
+      <Logo />
       <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
     </StyledMenu>
   );
