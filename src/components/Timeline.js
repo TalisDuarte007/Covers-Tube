@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import config from "../../config.json";
-
 
 const StyledTimeline = styled.div`
   flex: 1;
@@ -87,7 +85,7 @@ export default function Timeline({searchValue, ...props}) {
               <div className="name-button">
                 <h2>{playlistName}</h2>
                 <a href={props.config.linkPlaylist[playlistName]}>
-                  <button><img src={config.links.button} />Reproduzir Tudo</button>
+                  <button><img src={props.config.links.button} />Reproduzir Tudo</button>
                 </a>
               </div>
               
@@ -119,8 +117,6 @@ function verificaArrayVazio(videos, searchValue) {
   videos.filter((video) => {
     listaAtualizada.push(video.title.toLowerCase().includes(searchValue.toLowerCase()))
   })
-
-  console.log(listaAtualizada) 
 
   const newList = []
   
