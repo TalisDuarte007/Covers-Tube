@@ -10,7 +10,7 @@ const StyledTimeline = styled.div`
     font-size: 16px;
     margin-bottom: 16px;
     text-transform: capitalize;
-    color: ${({ theme }) => theme.textColor}
+    color: ${({ theme }) => theme.textColor};
   }
   .thumb {
     aspect-ratio: 16/9;
@@ -20,9 +20,9 @@ const StyledTimeline = styled.div`
     max-width: 250px;
     height: auto;
   }
-  button{
+  button {
     align-items: center;
-    background-color:  ${({ theme }) => theme.backgroundBase};
+    background-color: ${({ theme }) => theme.backgroundBase};
     color: ${({ theme }) => theme.textColor};
     border: none;
     display: flex;
@@ -32,7 +32,7 @@ const StyledTimeline = styled.div`
     font-size: 14px;
     padding: 0 10px;
   }
-  button:hover{
+  button:hover {
     cursor: pointer;
     transition: none;
     transform: none;
@@ -41,14 +41,13 @@ const StyledTimeline = styled.div`
     border: 1px solid black;
     border-radius: 15px;
     opacity: 1;
-    
   }
   section {
     width: 100%;
     padding: 0;
     overflow: hidden;
     padding: 16px 0 16px 0;
-    .name-button{
+    .name-button {
       display: flex;
       flex-direction: row;
       gap: 20px;
@@ -58,9 +57,9 @@ const StyledTimeline = styled.div`
       width: calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;
-      grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       grid-auto-flow: column;
-      grid-auto-columns: minmax(200px,1fr);
+      grid-auto-columns: minmax(200px, 1fr);
       overflow-x: hidden;
       scroll-snap-type: x mandatory;
       a {
@@ -74,9 +73,22 @@ const StyledTimeline = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 600px){
+    .thumb {
+      min-width: 100%;
+    }
+        section{
+          .videos-list {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+          }
+        }
+        
+      }
 `;
 
-export default function Timeline({searchValue, ...props}) {
+export default function Timeline({ searchValue, ...props }) {
   const playlistNames = Object.keys(props.config.playlists);
   return (
     <StyledTimeline>
@@ -89,45 +101,51 @@ export default function Timeline({searchValue, ...props}) {
               <div className="name-button">
                 <h2>{playlistName}</h2>
                 <a href={props.config.linkPlaylist[playlistName]}>
-                  <button><img src={props.config.links.button} />Reproduzir Tudo</button>
+                  <button>
+                    <img src={props.config.links.button} />
+                    Reproduzir Tudo
+                  </button>
                 </a>
               </div>
-              
+
               <div className="videos-list">
-                {videos.filter((video) => {
-                  const titleNormalized = video.title.toLowerCase();
-                  const searchValueNormalizer = searchValue.toLowerCase();
-                  return titleNormalized.includes(searchValueNormalizer)
-                }).map((video) => {
-                  return (
-                    <a key={video.url} href={video.url}>
-                      <img className="thumb" src={video.thumb} />
-                      <span>{video.title}</span>
-                    </a>
-                  );
-                })}
+                {videos
+                  .filter((video) => {
+                    const titleNormalized = video.title.toLowerCase();
+                    const searchValueNormalizer = searchValue.toLowerCase();
+                    return titleNormalized.includes(searchValueNormalizer);
+                  })
+                  .map((video) => {
+                    return (
+                      <a key={video.url} href={video.url}>
+                        <img className="thumb" src={video.thumb} />
+                        <span>{video.title}</span>
+                      </a>
+                    );
+                  })}
               </div>
             </section>
           );
         }
-        
       })}
     </StyledTimeline>
   );
 }
 
 function verificaArrayVazio(videos, searchValue) {
-  const listaAtualizada = []
+  const listaAtualizada = [];
   videos.filter((video) => {
-    listaAtualizada.push(video.title.toLowerCase().includes(searchValue.toLowerCase()))
-  })
+    listaAtualizada.push(
+      video.title.toLowerCase().includes(searchValue.toLowerCase())
+    );
+  });
 
-  const newList = []
-  
-  for(let videoAtualizado of listaAtualizada){
-    if(videoAtualizado){
-      newList.push(videoAtualizado)
+  const newList = [];
+
+  for (let videoAtualizado of listaAtualizada) {
+    if (videoAtualizado) {
+      newList.push(videoAtualizado);
     }
   }
-  return newList.length
+  return newList.length;
 }
