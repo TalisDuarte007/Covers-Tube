@@ -4,6 +4,12 @@ const StyledFavorites = styled.div`
   width: 100%;
   padding: 16px;
   overflow: hidden;
+  h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    color: ${({ theme }) => theme.textColor};
+  }
   img {
     border-radius: 50%;
   }
@@ -13,14 +19,14 @@ const StyledFavorites = styled.div`
     gap: 20px;
   }
   a {
-        scroll-snap-align: center;
-        span {
-          padding-top: 8px;
-          display: block;
-          padding-right: 24px;
-          color: ${({ theme }) => theme.textColorBase || "#222222"};
-        }
-      }
+    scroll-snap-align: center;
+    span {
+      padding-top: 8px;
+      display: block;
+      padding-right: 24px;
+      color: ${({ theme }) => theme.textColor};
+    }
+  }
 `;
 
 export default function Favorites(props) {

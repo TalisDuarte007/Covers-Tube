@@ -5,9 +5,12 @@ const StyledTimeline = styled.div`
   width: 100%;
   padding: 16px;
   overflow: hidden;
+  background-color: ${({ theme }) => theme.backgroundBase};
   h2 {
-    font-size: 16px
+    font-size: 16px;
+    margin-bottom: 16px;
     text-transform: capitalize;
+    color: ${({ theme }) => theme.textColor}
   }
   .thumb {
     aspect-ratio: 16/9;
@@ -19,7 +22,8 @@ const StyledTimeline = styled.div`
   }
   button{
     align-items: center;
-    background-color: white;
+    background-color:  ${({ theme }) => theme.backgroundBase};
+    color: ${({ theme }) => theme.textColor};
     border: none;
     display: flex;
     flex-direction: row;
@@ -32,8 +36,8 @@ const StyledTimeline = styled.div`
     cursor: pointer;
     transition: none;
     transform: none;
-    background-color: #D3D3D3;
-    color: black;
+    background-color: ${({ theme }) => theme.backgroundBase};
+    color: ${({ theme }) => theme.textColor};
     border: 1px solid black;
     border-radius: 15px;
     opacity: 1;
@@ -65,7 +69,7 @@ const StyledTimeline = styled.div`
           padding-top: 8px;
           display: block;
           padding-right: 24px;
-          color: ${({ theme }) => theme.textColorBase || "#222222"};
+          color: ${({ theme }) => theme.textColor};
         }
       }
     }

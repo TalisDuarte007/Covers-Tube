@@ -15,7 +15,7 @@ const StyledSearch = styled.div`
         padding: 4px 6px;
         border: none;
         outline: none;
-        color: ${({ theme }) => theme.textColorBase};
+        color: ${({ theme }) => theme.textColor};
         background-color: ${({ theme }) => theme.backgroundBase};
     }
 

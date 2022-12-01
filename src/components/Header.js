@@ -3,7 +3,17 @@ import config from "../../config.json";
 
 const StyledHeader = styled.div`
   background-color: ${({ theme }) => theme.backgroundLevel1};
-
+  color: ${({ theme }) => theme.textColorBase};
+  h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    color: ${({ theme }) => theme.textColor}
+  }
+  p{
+    text-transform: capitalize;
+    color: ${({ theme }) => theme.textColor}
+  }
   .icone-user {
     width: 80px;
     height: 80px;
