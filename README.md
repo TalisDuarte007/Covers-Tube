@@ -31,13 +31,13 @@ Esse projeto foi desenvolvido em uma imersão da [**Alura**](https://www.alura.c
 
 A imersão contemplou o uso de **Next.js** para o desenvolvimento da UI da aplicação, com o menu, a função de busca dos vídeos cadastrados, a estilização e definição de tema claro e tema escuro com **styled-components**, bem como mostrou como criar um banco de dados para cadastro dos vídeos na plataforma **Supabase**.
 
-Como atividades adicionais, criei outras opções de tema além do claro/escuro, trocando o _toggle_ feito durante o evento por um _select_ com as opções de tema (esse _select_ foi criado com **Radix UI**). Também implementei a opção de escolher dentre três playlists diferentes para salvar os vídeos, pois no evento foi mostrado apenas como salvar no Supabase em uma única playlist pré-definida. Para finalizar a aplicação, criei a funcionalidade de excluir um vídeo de uma determinada playlist, bastando clicar no botão no canto superior direito da _thumbnail_.
+Como atividades adicionais, eu melhorei o sistema de pesquisa, ocultando as playlists onde não tem nenhum vídeo para mostrar de acordo com o que foi digitado durante a pesquisa, pois durante o evento, da maneira como foi feito, o site mostrava uma aba vazia com o nome do artista/playlist, sem vídeo nenhum. Também implementei um botão para cada playlis, chamado de "Reproduzir Tudo", em que leva para uma playlist com todos os Vídeos/Covers daquela playlist específica.
 
 Como ideia de implementação futura, pode ser feito um sistema de cadastro/login para mostrar os vídeos por usuário, além da opção de poder criar uma nova playlist além das existentes. Atualmente a aplicação aceita apenas vídeos do YouTube, então torna-se necessário corrigir um erro que ocorre ao tentar adicionar vídeos de outras fontes.
 
 ## ⚙️ Como usar
 
-Para usar a aplicação, basta acessar [este link](https://covers-tube.vercel.app/). Não é necessário login, sendo mostrado na página da aplicação alguns dos meus vídeos favoritos.
+Para usar a aplicação, basta acessar [este link](https://covers-tube.vercel.app/). Não é necessário login, sendo mostrado na página da aplicação alguns dos meus vídeos de cover favoritos.
 
 Para cadastrar novos vídeos, basta:
 
