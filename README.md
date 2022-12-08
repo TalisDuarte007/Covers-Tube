@@ -13,7 +13,7 @@ Esse projeto foi desenvolvido em uma imersão da [**Alura**](https://www.alura.c
 <!-- prettier-ignore -->
 | 🪧 Vitrine. Dev |     |
 | -------------- | --- |
-| ✨ Nome        | **AluraTube | Imersão React / Next.js** |
+| ✨ Nome        | **AluraTube** | Imersão React / Next.js |
 | 🏷️ Tecnologias | React, Next, Styled-Components, Radix UI, Supabase |
 | 🚀 URL         | [https://covers-tube.vercel.app/](https://covers-tube.vercel.app/) |
 | 🔥 Desafio     | [Design no Figma](https://www.figma.com/file/3ryManadSVXjYYdva3orGD/Aluratube-(Copy)?node-id=5%3A2) |
