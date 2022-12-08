@@ -4,8 +4,6 @@
 
 </div>
 
-_[Read it in English](#English)_
-
 O **Covers-Tube**, é a minha adaptação própria do **AluraTube**, é uma plataforma clone do YouTube onde estou colocando meus clipes favoritos de músicas versão cover para compartilhar com amigos.
 
 Esse projeto foi desenvolvido em uma imersão da [**Alura**](https://www.alura.com.br) voltada para iniciantes em React com foco em Next.js. O projeto está sendo desenvolvido sob a orientação do instrutor [Mario Souto](https://github.com/omariosouto) com participação da desenvolvedora [Nayanne Lopes](https://github.com/NayanneBatista) e do CEO da Alura, [Paulo Silveira](https://github.com/peas).
