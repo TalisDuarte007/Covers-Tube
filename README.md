@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido em uma imersão da [**Alura**](https://www.alura.c
 | 🚀 URL         | [https://covers-tube.vercel.app/](https://covers-tube.vercel.app/) |
 | 🔥 Desafio     | [Design no Figma](https://www.figma.com/file/3ryManadSVXjYYdva3orGD/Aluratube-(Copy)?node-id=5%3A2) |
 
-![](https://uploaddeimagens.com.br/images/004/253/708/original/Covers-Tube.png?1670517329)
+![](https://uploaddeimagens.com.br/images/004/253/708/original/Covers-Tube.png?1670517329#vitrinedev)
 
 ## Detalhes do projeto
 
